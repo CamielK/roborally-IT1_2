@@ -13,20 +13,14 @@ using Android.Widget;
 
 namespace roborally
 {
-	[Activity (Label = "hoofdmenu")]			
-	public class hoofdmenu : Activity
+	[Activity (Label = "test5")]			
+	public class test5 : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
 			SetContentView (Resource.Layout.Hoofdmenu);
-
-			Button button = FindViewById<Button> (Resource.Id.uitloggen);
-
-			button.Click += delegate {
-				StartActivity(typeof(MainActivity));
-			};
 		}
 	}
 }
