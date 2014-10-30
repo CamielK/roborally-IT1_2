@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffdedede">
+    <TextView
+        android:text="geef de maker van dit spel feedback. dit kunnen bijvoorbeeld toevoegingen of verbeteringen aan het spel zijn die je graag zou willen zien."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="310.3dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ff8c948d" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:id="@+id/editText1"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffffff"
+        android:hint="   schrijf hier je feedback"
+        android:textColorHint="#348c948d" />
+    <Button
+        android:id="@+id/verzenden"
+        android:text="Feedback verzenden"
+        android:background="#aa636f65"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="25dp" />
+</LinearLayout>
