@@ -12,22 +12,48 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="45dp"
         android:layout_marginRight="0dp"
-        android:hint="inlognaam" />
+        android:hint="   inlognaam"
+        android:textColorHint="#ff8d9095"
+        android:textColor="#ff8d9095" />
     <EditText
         android:inputType="textPassword"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:id="@+id/editText1"
         android:background="#ffffffff"
-        android:hint="wachtwoord"
+        android:hint="   wachtwoord"
         android:layout_marginLeft="45dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ff8d9095"
+        android:textColor="#ff8d9095" />
     <Button
         android:id="@+id/myButton"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="inloggen"
         android:layout_marginTop="50dp"
-        android:background="#ff7ac583"
+        android:background="#7AC583"
+        android:layout_marginLeft="45dp" />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="175.9dp"
+        android:id="@+id/demoImageView"
+        android:src="@drawable/roborally_logo"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:clickable="true"
+        android:longClickable="true"
+        android:filterTouchesWhenObscured="true"
+        android:hapticFeedbackEnabled="true"
+        android:duplicateParentState="true"
+        android:isScrollContainer="true"
+        android:keepScreenOn="true"
+        android:saveEnabled="true"
+        android:soundEffectsEnabled="true"
+        android:baselineAlignBottom="true"
+        android:fitsSystemWindows="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="0dp"
         android:layout_marginLeft="45dp" />
 </LinearLayout>
