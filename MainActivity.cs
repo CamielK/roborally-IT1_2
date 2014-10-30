@@ -12,21 +12,20 @@ namespace roborally
 	[Activity (Label = "roborally", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
-		int count = 1;
 
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
-			// Set our view from the "main" layout resource
+			// koppel activity aan layout bestand
 			SetContentView (Resource.Layout.Main);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
+			// button ophalen
 			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
+
+			// button click gaat naar hoofdmenu
 			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
+				StartActivity(typeof(hoofdmenu));
 			};
 		}
 	}
