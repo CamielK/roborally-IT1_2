@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:text="inloggen"
         android:layout_marginTop="50dp"
-        android:background="#7AC583"
+        android:background="#a5971121"
         android:layout_marginLeft="45dp" />
     <ImageView
         android:layout_width="300dp"
