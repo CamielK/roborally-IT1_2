@@ -36,9 +36,9 @@ namespace roborally
 			//button_lobbymaken.Click += delegate {
 				//StartActivity(typeof(new_lobby));
 			//};
-			//button_vriendenlijst.Click += delegate {
-				//StartActivity(typeof(vriendenlijst));
-			//};
+			button_vriendenlijst.Click += delegate {
+				StartActivity(typeof(vriendenlijst));
+			};
 			button_feedback.Click += delegate {
 				StartActivity(typeof(feedback));
 			};

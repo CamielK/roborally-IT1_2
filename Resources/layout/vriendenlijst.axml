@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffdedede">
+    <Button
+        android:text="terug"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/terug" />
+    <Button
+        android:id="@+id/vriend1"
+        android:text="vriend 1"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/vriend2"
+        android:text="vriend 2"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/vriend3"
+        android:text="vriend 3"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/vriend4"
+        android:text="vriend 4"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/vriend5"
+        android:text="vriend 5"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/vriend6"
+        android:text="vriend 6"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/vriend7"
+        android:text="vriend 7"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/VriendToevoegen"
+        android:text="Vriend toevoegen"
+        android:background="#aa636f65"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="40dp" />
+</LinearLayout>
