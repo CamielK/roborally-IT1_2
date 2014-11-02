@@ -14,7 +14,7 @@ using Android.Widget;
 namespace roborally
 {
 
-	[Activity (Label = "hoofdmenu")]			
+	[Activity (Label = "Hoofdmenu")]			
 	public class hoofdmenu : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
@@ -30,15 +30,15 @@ namespace roborally
 			Button button_uitloggen 	= FindViewById<Button> (Resource.Id.uitloggen);
 			Button button_instellingen 	= FindViewById<Button> (Resource.Id.instellingen);
 
-			button_lobbyjoinen.Click += delegate {
-				StartActivity(typeof(lobby_lijst));
-			};
-			button_lobbymaken.Click += delegate {
-				StartActivity(typeof(new_lobby));
-			};
-			button_vriendenlijst.Click += delegate {
-				StartActivity(typeof(vriendenlijst));
-			};
+			//button_lobbyjoinen.Click += delegate {
+				//StartActivity(typeof(lobby_lijst));
+			//};
+			//button_lobbymaken.Click += delegate {
+				//StartActivity(typeof(new_lobby));
+			//};
+			//button_vriendenlijst.Click += delegate {
+				//StartActivity(typeof(vriendenlijst));
+			//};
 			button_feedback.Click += delegate {
 				StartActivity(typeof(feedback));
 			};

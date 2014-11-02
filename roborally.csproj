@@ -49,6 +49,7 @@
     <Compile Include="hoofdmenu.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="feedback.cs" />
+    <Compile Include="instellingen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -63,6 +64,7 @@
     <AndroidResource Include="Resources\drawable\roborally_logo.png" />
     <AndroidResource Include="Resources\drawable\roborally_logo2.png" />
     <AndroidResource Include="Resources\layout\feedback.axml" />
+    <AndroidResource Include="Resources\layout\instellingen.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

@@ -23,8 +23,12 @@ namespace roborally
 			SetContentView (Resource.Layout.feedback);
 
 			Button button_verzenden	= FindViewById<Button> (Resource.Id.verzenden);
+			Button button_terug	= FindViewById<Button> (Resource.Id.terug);
 
 			button_verzenden.Click += delegate {
+				StartActivity(typeof(hoofdmenu));
+			};
+			button_terug.Click += delegate {
 				StartActivity(typeof(hoofdmenu));
 			};
 		}
