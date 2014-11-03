@@ -51,6 +51,7 @@
     <Compile Include="feedback.cs" />
     <Compile Include="instellingen.cs" />
     <Compile Include="vriendenlijst.cs" />
+    <Compile Include="vriendtoevoegen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -67,6 +68,7 @@
     <AndroidResource Include="Resources\layout\feedback.axml" />
     <AndroidResource Include="Resources\layout\instellingen.axml" />
     <AndroidResource Include="Resources\layout\vriendenlijst.axml" />
+    <AndroidResource Include="Resources\layout\vriendtoevoegen.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
