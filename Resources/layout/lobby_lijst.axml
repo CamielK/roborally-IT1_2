@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffdedede">
+    <Button
+        android:text="terug"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/terug" />
+    <Button
+        android:id="@+id/lobby1"
+        android:text="lobby 1"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/lobby2"
+        android:text="lobby 2"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/lobby3"
+        android:text="lobby 3"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/lobby4"
+        android:text="lobby 4"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/lobby5"
+        android:text="lobby 5"
+        android:background="#57575c60"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/nieuwe_lobby"
+        android:text="nieuwe lobby"
+        android:background="#aa636f65"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="100dp" />
+</LinearLayout>

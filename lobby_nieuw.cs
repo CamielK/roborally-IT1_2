@@ -9,25 +9,25 @@ using Android.OS;
 
 namespace roborally
 {
-	[Activity (Label = "Vriend toevoegen")]
-	public class vriendtoevoegen : Activity
+	[Activity (Label = "lobby #")]
+	public class lobby_nieuw : Activity
 	{
 
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
-			SetContentView (Resource.Layout.vriendtoevoegen);
+			SetContentView (Resource.Layout.lobby_nieuw);
 
 			Button terug = FindViewById<Button> (Resource.Id.terug);
-			Button vriend_toevoegen = FindViewById<Button> (Resource.Id.VriendToevoegen);
+			Button klaar = FindViewById<Button> (Resource.Id.starten);
 
 			terug.Click += delegate {
-				StartActivity(typeof(vriendenlijst));
+				StartActivity(typeof(lobby_lijst));
 			};
-			vriend_toevoegen.Click += delegate {
-				StartActivity(typeof(vriendenlijst));
-			};
+			//klaar.Click += delegate {
+				//StartActivity(typeof(spel));
+			//};
 		}
 	}
 }

@@ -31,12 +31,12 @@ namespace roborally
 			Button button_instellingen 	= FindViewById<Button> (Resource.Id.instellingen);
 			Button button_info 			= FindViewById<Button> (Resource.Id.info);
 
-			//button_lobbyjoinen.Click += delegate {
-				//StartActivity(typeof(lobby_lijst));
-			//};
-			//button_lobbymaken.Click += delegate {
-				//StartActivity(typeof(new_lobby));
-			//};
+			button_lobbyjoinen.Click += delegate {
+				StartActivity(typeof(lobby_lijst));
+			};
+			button_lobbymaken.Click += delegate {
+				StartActivity(typeof(lobby_maken));
+			};
 			button_vriendenlijst.Click += delegate {
 				StartActivity(typeof(vriendenlijst));
 			};

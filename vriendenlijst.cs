@@ -28,7 +28,7 @@ namespace roborally
 			Button vriend5 = FindViewById<Button> (Resource.Id.vriend5);
 
 			terug.Click += delegate {
-				StartActivity(typeof(vriendenlijst));
+				StartActivity(typeof(hoofdmenu));
 			};
 			vriend_toevoegen.Click += delegate {
 				StartActivity(typeof(vriendtoevoegen));

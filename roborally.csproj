@@ -54,8 +54,12 @@
     <Compile Include="vriendtoevoegen.cs" />
     <Compile Include="nieuw_account.cs" />
     <Compile Include="wachtwoord_vergeten.cs" />
-    <Compile Include="vriend1.cs" />
     <Compile Include="info.cs" />
+    <Compile Include="lobby_lijst.cs" />
+    <Compile Include="vriend.cs" />
+    <Compile Include="lobby.cs" />
+    <Compile Include="lobby_nieuw.cs" />
+    <Compile Include="lobby_maken.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -81,6 +85,14 @@
     <AndroidResource Include="Resources\drawable\profileholder.png" />
     <AndroidResource Include="Resources\drawable\roborally3.png" />
     <AndroidResource Include="Resources\layout\info.axml" />
+    <AndroidResource Include="Resources\layout\lobby_lijst.axml" />
+    <AndroidResource Include="Resources\layout\lobby.axml" />
+    <AndroidResource Include="Resources\layout\lobby_nieuw.axml" />
+    <AndroidResource Include="Resources\drawable\lobby.png" />
+    <AndroidResource Include="Resources\drawable\lobby_nieuw.png" />
+    <AndroidResource Include="Resources\drawable\spelers_lobby.png" />
+    <AndroidResource Include="Resources\drawable\spelers_lobbynieuw.png" />
+    <AndroidResource Include="Resources\layout\lobby_maken.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
