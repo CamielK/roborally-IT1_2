@@ -22,10 +22,18 @@ namespace roborally
 
 			// button ophalen
 			Button button = FindViewById<Button> (Resource.Id.myButton);
+			Button nieuw_account = FindViewById<Button> (Resource.Id.accountmaken);
+			Button wachtwoord_vergeten = FindViewById<Button> (Resource.Id.wachtwoordvergeten);
 
 			// button click gaat naar hoofdmenu
 			button.Click += delegate {
 				StartActivity(typeof(hoofdmenu));
+			};
+			nieuw_account.Click += delegate {
+				StartActivity(typeof(nieuw_account));
+			};
+			wachtwoord_vergeten.Click += delegate {
+				StartActivity(typeof(wachtwoord_vergeten));
 			};
 		}
 	}

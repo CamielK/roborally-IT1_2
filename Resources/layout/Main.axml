@@ -32,6 +32,22 @@
         android:layout_height="wrap_content"
         android:text="inloggen"
         android:layout_marginTop="50dp"
+        android:background="#aa636f65"
+        android:layout_marginLeft="45dp" />
+    <Button
+        android:id="@+id/accountmaken"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="Account maken"
+        android:layout_marginTop="30dp"
+        android:background="#a5971121"
+        android:layout_marginLeft="45dp" />
+    <Button
+        android:id="@+id/wachtwoordvergeten"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="wachtwoord vergeten"
+        android:layout_marginTop="20dp"
         android:background="#a5971121"
         android:layout_marginLeft="45dp" />
     <ImageView
@@ -53,7 +69,7 @@
         android:soundEffectsEnabled="true"
         android:baselineAlignBottom="true"
         android:fitsSystemWindows="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="0dp"
         android:layout_marginLeft="45dp" />
 </LinearLayout>

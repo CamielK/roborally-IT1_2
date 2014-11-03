@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffdedede">
+    <Button
+        android:text="terug"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/terug" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText2"
+        android:background="#ffffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="0dp"
+        android:hint="   inlognaam"
+        android:textColorHint="#ff8d9095"
+        android:textColor="#ff8d9095" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText1"
+        android:background="#ffffffff"
+        android:hint="   wachtwoord"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ff8d9095"
+        android:textColor="#ff8d9095" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText1"
+        android:background="#ffffffff"
+        android:hint="   e-mail"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ff8d9095"
+        android:textColor="#ff8d9095" />
+    <Button
+        android:id="@+id/aanmaken"
+        android:text="aanmaken"
+        android:background="#aa636f65"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="25dp" />
+</LinearLayout>
