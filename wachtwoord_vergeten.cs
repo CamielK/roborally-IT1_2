@@ -27,10 +27,10 @@ namespace roborally
 
 			// button click gaat naar hoofdmenu
 			terug.Click += delegate {
-				StartActivity(typeof(hoofdmenu));
+				StartActivity(typeof(MainActivity));
 			};
 			opvragen.Click += delegate {
-				StartActivity(typeof(hoofdmenu));
+				StartActivity(typeof(MainActivity));
 			};
 		}
 	}

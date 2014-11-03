@@ -54,6 +54,7 @@
     <Compile Include="vriendtoevoegen.cs" />
     <Compile Include="nieuw_account.cs" />
     <Compile Include="wachtwoord_vergeten.cs" />
+    <Compile Include="vriend1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -73,6 +74,11 @@
     <AndroidResource Include="Resources\layout\vriendtoevoegen.axml" />
     <AndroidResource Include="Resources\layout\nieuw_account.axml" />
     <AndroidResource Include="Resources\layout\wachtwoord_vergeten.axml" />
+    <AndroidResource Include="Resources\layout\vriend.axml" />
+    <AndroidResource Include="Resources\drawable\profile.png" />
+    <AndroidResource Include="Resources\drawable\roborally_appicon.png" />
+    <AndroidResource Include="Resources\drawable\profileholder.png" />
+    <AndroidResource Include="Resources\drawable\roborally3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
