@@ -43,7 +43,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:layout_marginLeft="45dp">
         <Button
             android:id="@+id/uitloggen"
@@ -59,4 +59,11 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp" />
     </LinearLayout>
+    <Button
+        android:text="info"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/info"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="245dp" />
 </LinearLayout>

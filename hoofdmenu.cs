@@ -29,6 +29,7 @@ namespace roborally
 			Button button_feedback 		= FindViewById<Button> (Resource.Id.Feedback);
 			Button button_uitloggen 	= FindViewById<Button> (Resource.Id.uitloggen);
 			Button button_instellingen 	= FindViewById<Button> (Resource.Id.instellingen);
+			Button button_info 			= FindViewById<Button> (Resource.Id.info);
 
 			//button_lobbyjoinen.Click += delegate {
 				//StartActivity(typeof(lobby_lijst));
@@ -47,6 +48,9 @@ namespace roborally
 			};
 			button_instellingen.Click += delegate {
 				StartActivity(typeof(instellingen));
+			};
+			button_info.Click += delegate {
+				StartActivity(typeof(info));
 			};
 		}
 	}

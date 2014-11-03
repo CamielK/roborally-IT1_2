@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace roborally
 {
-	[Activity (Label = "Roborally", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity (Label = "Roborally IT1_2", MainLauncher = true, Icon = "@drawable/roborally_appicon")]
 	public class MainActivity : Activity
 	{
 
