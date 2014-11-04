@@ -60,6 +60,7 @@
     <Compile Include="lobby.cs" />
     <Compile Include="lobby_nieuw.cs" />
     <Compile Include="lobby_maken.cs" />
+    <Compile Include="spel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -93,6 +94,11 @@
     <AndroidResource Include="Resources\drawable\spelers_lobby.png" />
     <AndroidResource Include="Resources\drawable\spelers_lobbynieuw.png" />
     <AndroidResource Include="Resources\layout\lobby_maken.axml" />
+    <AndroidResource Include="Resources\layout\spel.axml" />
+    <AndroidResource Include="Resources\drawable\kaarten.png" />
+    <AndroidResource Include="Resources\drawable\spelbord.png" />
+    <AndroidResource Include="Resources\drawable\RallyMed.png" />
+    <AndroidResource Include="Resources\drawable\spel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

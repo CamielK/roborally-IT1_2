@@ -48,34 +48,46 @@ namespace roborally
 			public const int Icon = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int lobby = 2130837505;
+			public const int kaarten = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int lobby_nieuw = 2130837506;
+			public const int lobby = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int profile = 2130837507;
+			public const int lobby_nieuw = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int profileholder = 2130837508;
+			public const int profile = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int roborally3 = 2130837509;
+			public const int profileholder = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int roborally_appicon = 2130837510;
+			public const int RallyMed = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int roborally_logo = 2130837511;
+			public const int roborally3 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int roborally_logo2 = 2130837512;
+			public const int roborally_appicon = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int spelers_lobby = 2130837513;
+			public const int roborally_logo = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int spelers_lobbynieuw = 2130837514;
+			public const int roborally_logo2 = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int spel = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int spelbord = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int spelers_lobby = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int spelers_lobbynieuw = 2130837518;
 			
 			static Drawable()
 			{
@@ -102,8 +114,8 @@ namespace roborally
 			// aapt resource value: 0x7f050005
 			public const int Lobby_maken = 2131034117;
 			
-			// aapt resource value: 0x7f050027
-			public const int VriendToevoegen = 2131034151;
+			// aapt resource value: 0x7f050028
+			public const int VriendToevoegen = 2131034152;
 			
 			// aapt resource value: 0x7f050006
 			public const int Vriendenlijst = 2131034118;
@@ -111,20 +123,20 @@ namespace roborally
 			// aapt resource value: 0x7f05001d
 			public const int aanmaken = 2131034141;
 			
-			// aapt resource value: 0x7f05001a
-			public const int accountmaken = 2131034138;
+			// aapt resource value: 0x7f05001b
+			public const int accountmaken = 2131034139;
 			
-			// aapt resource value: 0x7f050020
-			public const int chatten = 2131034144;
+			// aapt resource value: 0x7f050021
+			public const int chatten = 2131034145;
 			
-			// aapt resource value: 0x7f05001c
-			public const int demoImageView = 2131034140;
+			// aapt resource value: 0x7f05000f
+			public const int demoImageView = 2131034127;
 			
 			// aapt resource value: 0x7f050002
 			public const int editText1 = 2131034114;
 			
-			// aapt resource value: 0x7f050016
-			public const int editText2 = 2131034134;
+			// aapt resource value: 0x7f050017
+			public const int editText2 = 2131034135;
 			
 			// aapt resource value: 0x7f05000b
 			public const int info = 2131034123;
@@ -132,11 +144,11 @@ namespace roborally
 			// aapt resource value: 0x7f05000a
 			public const int instellingen = 2131034122;
 			
-			// aapt resource value: 0x7f05001f
-			public const int joinen = 2131034143;
+			// aapt resource value: 0x7f050020
+			public const int joinen = 2131034144;
 			
-			// aapt resource value: 0x7f05000f
-			public const int klaar = 2131034127;
+			// aapt resource value: 0x7f050010
+			public const int klaar = 2131034128;
 			
 			// aapt resource value: 0x7f050008
 			public const int linearLayout1 = 2131034120;
@@ -144,38 +156,41 @@ namespace roborally
 			// aapt resource value: 0x7f05000c
 			public const int linearLayout2 = 2131034124;
 			
-			// aapt resource value: 0x7f050010
-			public const int lobby1 = 2131034128;
-			
 			// aapt resource value: 0x7f050011
-			public const int lobby2 = 2131034129;
+			public const int lobby1 = 2131034129;
 			
 			// aapt resource value: 0x7f050012
-			public const int lobby3 = 2131034130;
+			public const int lobby2 = 2131034130;
 			
 			// aapt resource value: 0x7f050013
-			public const int lobby4 = 2131034131;
+			public const int lobby3 = 2131034131;
 			
 			// aapt resource value: 0x7f050014
-			public const int lobby5 = 2131034132;
+			public const int lobby4 = 2131034132;
 			
-			// aapt resource value: 0x7f050017
-			public const int maken = 2131034135;
+			// aapt resource value: 0x7f050015
+			public const int lobby5 = 2131034133;
+			
+			// aapt resource value: 0x7f050018
+			public const int maken = 2131034136;
 			
 			// aapt resource value: 0x7f05000d
 			public const int meldingen = 2131034125;
 			
+			// aapt resource value: 0x7f05001a
+			public const int myButton = 2131034138;
+			
+			// aapt resource value: 0x7f050016
+			public const int nieuwe_lobby = 2131034134;
+			
+			// aapt resource value: 0x7f050029
+			public const int opvragen = 2131034153;
+			
 			// aapt resource value: 0x7f050019
-			public const int myButton = 2131034137;
+			public const int starten = 2131034137;
 			
-			// aapt resource value: 0x7f050015
-			public const int nieuwe_lobby = 2131034133;
-			
-			// aapt resource value: 0x7f050028
-			public const int opvragen = 2131034152;
-			
-			// aapt resource value: 0x7f050018
-			public const int starten = 2131034136;
+			// aapt resource value: 0x7f05001e
+			public const int stoppen = 2131034142;
 			
 			// aapt resource value: 0x7f050000
 			public const int terug = 2131034112;
@@ -186,32 +201,32 @@ namespace roborally
 			// aapt resource value: 0x7f050009
 			public const int uitloggen = 2131034121;
 			
-			// aapt resource value: 0x7f05001e
-			public const int uitnodigen = 2131034142;
+			// aapt resource value: 0x7f05001f
+			public const int uitnodigen = 2131034143;
 			
 			// aapt resource value: 0x7f050003
 			public const int verzenden = 2131034115;
 			
-			// aapt resource value: 0x7f050022
-			public const int vriend1 = 2131034146;
-			
 			// aapt resource value: 0x7f050023
-			public const int vriend2 = 2131034147;
+			public const int vriend1 = 2131034147;
 			
 			// aapt resource value: 0x7f050024
-			public const int vriend3 = 2131034148;
+			public const int vriend2 = 2131034148;
 			
 			// aapt resource value: 0x7f050025
-			public const int vriend4 = 2131034149;
+			public const int vriend3 = 2131034149;
 			
 			// aapt resource value: 0x7f050026
-			public const int vriend5 = 2131034150;
+			public const int vriend4 = 2131034150;
 			
-			// aapt resource value: 0x7f050021
-			public const int vriend_verwijderen = 2131034145;
+			// aapt resource value: 0x7f050027
+			public const int vriend5 = 2131034151;
 			
-			// aapt resource value: 0x7f05001b
-			public const int wachtwoordvergeten = 2131034139;
+			// aapt resource value: 0x7f050022
+			public const int vriend_verwijderen = 2131034146;
+			
+			// aapt resource value: 0x7f05001c
+			public const int wachtwoordvergeten = 2131034140;
 			
 			static Id()
 			{
@@ -257,16 +272,19 @@ namespace roborally
 			public const int nieuw_account = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int vriend = 2130903050;
+			public const int spel = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int vriendenlijst = 2130903051;
+			public const int vriend = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int vriendtoevoegen = 2130903052;
+			public const int vriendenlijst = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int wachtwoord_vergeten = 2130903053;
+			public const int vriendtoevoegen = 2130903053;
+			
+			// aapt resource value: 0x7f03000e
+			public const int wachtwoord_vergeten = 2130903054;
 			
 			static Layout()
 			{

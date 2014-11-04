@@ -25,9 +25,9 @@ namespace roborally
 			terug.Click += delegate {
 				StartActivity(typeof(lobby_lijst));
 			};
-			//klaar.Click += delegate {
-				//StartActivity(typeof(spel));
-			//};
+			klaar.Click += delegate {
+				StartActivity(typeof(spel));
+			};
 		}
 	}
 }
