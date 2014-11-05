@@ -23,19 +23,19 @@ namespace roborally
 
 			SetContentView (Resource.Layout.Hoofdmenu);
 
-			Button button_lobbyjoinen 	= FindViewById<Button> (Resource.Id.Lobby_joinen);
-			Button button_lobbymaken 	= FindViewById<Button> (Resource.Id.Lobby_maken);
+			Button spelSpelen 	= FindViewById<Button> (Resource.Id.spel_spelen);
+			Button bekijken 	= FindViewById<Button> (Resource.Id.spel_bekijken);
 			Button button_vriendenlijst = FindViewById<Button> (Resource.Id.Vriendenlijst);
 			Button button_feedback 		= FindViewById<Button> (Resource.Id.Feedback);
 			Button button_uitloggen 	= FindViewById<Button> (Resource.Id.uitloggen);
 			Button button_instellingen 	= FindViewById<Button> (Resource.Id.instellingen);
 			Button button_info 			= FindViewById<Button> (Resource.Id.info);
 
-			button_lobbyjoinen.Click += delegate {
-				StartActivity(typeof(lobby_lijst));
+			spelSpelen.Click += delegate {
+				StartActivity(typeof(spel_spelen));
 			};
-			button_lobbymaken.Click += delegate {
-				StartActivity(typeof(lobby_maken));
+			bekijken.Click += delegate {
+				StartActivity(typeof(spel_bekijken));
 			};
 			button_vriendenlijst.Click += delegate {
 				StartActivity(typeof(vriendenlijst));
